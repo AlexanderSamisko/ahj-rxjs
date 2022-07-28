@@ -7,7 +7,7 @@ import Collapse from './Collapser';
 
 export default class Puller {
   constructor() {
-    this.api = new API('http://localhost:7040');
+    this.api = new API('http://another-ahj-rxjs-for-nothing.herokuapp.com');
   }
 
   pullMailList() {
